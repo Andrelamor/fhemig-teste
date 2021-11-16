@@ -1,0 +1,112 @@
+{
+    "fields":
+    [
+        {
+            "name": "hospital",
+            "type": "string",
+            "format": "default",
+            "title": "Unidade Hospitalar "
+        },
+        {
+            "name": "pacientes_dia",
+            "type": "number",
+            "format": "default",
+            "title": "Pacientes-Dia",
+            "groupChar": "."  
+        },
+        {
+            "name": "saidas_hospitalares",
+            "type": "number",
+            "format": "default",
+            "title": "Saídas Hospitalares",
+            "groupChar": "."
+        },
+        {
+            "name": "obitos_hospitalares",
+            "type": "integer",
+            "format": "default",
+            "title": "Óbitos Hospitalares"
+        },
+        {
+            "name": "obitos_institucionais",
+            "type": "integer",
+            "format": "default",
+            "title": "Óbitos institucionais"
+        },
+        {
+            "name": "leitos_dia",
+            "type": "number",
+            "format": "default",
+            "title": "Leitos-Dia",
+            "groupChar": "."
+        },
+        {
+            "name": "internacoes_hospitalares",
+            "type": "number",
+            "format": "default",
+            "title": "Internações Hospitalares ",
+            "groupChar": "."
+        },
+        {
+            "name": "consultas_eletivas",
+            "type": "number",
+            "format": "default",
+            "title": "Consultas Medicas Eletivas",
+            "groupChar": "."
+        },
+        {
+            "name": "consultas_urgencia",
+            "type": "number",
+            "format": "default",
+            "title": "Consultas Médicas de Urgência ",
+            "groupChar": "."
+        },
+        {
+            "name": "permanencia",
+            "type": "number",
+            "format": "default",
+            "title": "Média de Permanência, em dias",
+            "decimalChar": ","
+        },
+        {
+            "name": "ocupacao",
+            "type": "number",
+            "format": "default",
+            "title": "Taxa média de ocupação (%)",
+            "decimalChar": ","
+        },
+        {
+            "name": "mortalidade_hospitalar_geral",
+            "type": "number",
+            "format": "default",
+            "title": "Taxa de Mortalidade Hospitalar Geral (%)",
+            "decimalChar": ","
+        },
+        {
+            "name": "mortalidade_institucional",
+            "type": "number",
+            "format": "default",
+            "title": "Taxa de Mortalidade Institucional (%)",
+            "decimalChar": ","
+        },
+        {
+            "name": "renovacao_leitos",
+            "type": "number",
+            "format": "default",
+            "title": "Índice de Renovação de Leitos  ",
+            "decimalChar": ","
+        },
+        {
+            "name": "mes",
+            "type": "integer",
+            "format": "default",
+            "title": "Mês"
+        },
+        {
+            "name": "ano",
+            "type": "integer",
+            "format": "default",
+            "title": "Ano"
+        }
+    ]
+}

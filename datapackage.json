@@ -1,0 +1,46 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "fhemig-09",
+      "path": "data/fhemig-09.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "teste fhemig setembro",
+      "description": "teste fhemig setembro",
+      "format": "csv",
+      "encoding": "utf-8"
+    },
+    {
+      "name": "fhemig-10",
+      "path": "data/fhemig-10.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "teste fhemig outubro",
+      "description": "teste fhemig outubro",
+      "format": "csv",
+      "encoding": "utf-8"
+    }
+  ],
+  "keywords": [
+    "indicadores hospitalares",
+    "gestão hospitalar"
+  ],
+  "name": "teste-fhemig",
+  "title": "Teste FHEMIG",
+  "description": "Teste de descrição de arquivos",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "André",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
